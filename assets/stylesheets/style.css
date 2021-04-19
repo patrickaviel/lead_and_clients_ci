@@ -1,0 +1,33 @@
+
+h5{
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+h3{
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+}
+.extend{
+    padding: 0;
+}
+.md{
+    width: 60%;
+    border: 1px solid black;
+    margin: auto;
+}
+h5{
+    text-decoration: underline;
+}
+.chartContainer{
+    height: 300px; 
+    width: 50%;
+    margin: 5em auto;
+}
+form{
+    width: 100%;
+    text-align: right;
+    padding:1em;
+
+}
