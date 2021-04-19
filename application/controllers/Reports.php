@@ -46,14 +46,16 @@ class Reports extends CI_Controller {
 			
             $data['leads'] = $this->report_model->get_all_leads();
             $result =$data['leads'];
-            $this->load->view('partials/header',$data);
-            $this->load->view('report_dashboard',$data);
+            //$this->load->view('partials/header',$data);
+            //$this->load->view('report_dashboard',$data);
+            redirect(base_url(),$data);
         }else
         {
             $data['leads'] = $this->report_model->get_lead_by_date($this->input->post(NULL, TRUE));
             $result =$data['leads'];
             $this->load->view('partials/header',$data);
             $this->load->view('report_dashboard',$data);
+            
             
         }
 
